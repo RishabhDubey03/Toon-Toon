@@ -1,6 +1,6 @@
 ## Description
 
-The project is a website that allows users to generate a 10 panel comic-strip by entering 10 texts. The website was developed using the following technologies:
+The project is a [website](https://rishabhdubey03.github.io/Toon-Toon/) that allows users to generate a 10 panel comic-strip by entering 10 texts. The website was developed using the following technologies:
 
 - ReactJS
 - API provided by Dashtoon
