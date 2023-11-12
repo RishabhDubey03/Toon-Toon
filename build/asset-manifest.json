@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Toon-Toon/static/css/main.c5b1cffa.css",
+    "main.js": "/Toon-Toon/static/js/main.739e9c58.js",
+    "index.html": "/Toon-Toon/index.html",
+    "main.c5b1cffa.css.map": "/Toon-Toon/static/css/main.c5b1cffa.css.map",
+    "main.739e9c58.js.map": "/Toon-Toon/static/js/main.739e9c58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5b1cffa.css",
+    "static/js/main.739e9c58.js"
+  ]
+}
