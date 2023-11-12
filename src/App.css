@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  text-align: center;
+  font-size: xxx-large;
+  padding: 1rem;
+  color: #fc8019;
+  font-family: "Bangers", cursive;
+}
+.form-card {
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group .card {
+  flex: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form-group .card-body {
+  padding: 15px;
+}
+
+.form-group .prepend-number {
+  display: inline-block;
+  background: #ccc;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 0 0 10px 0;
+  margin-right: 5px;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  margin-top: 5px;
+}
+
+.modal-content {
+  height: 80vh;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 0;
+}
+
+.modal-body {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.modal-body::-webkit-scrollbar {
+  width: 0px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.comic-panel {
+  position: relative;
+  flex: 0 0 calc(50%);
+  max-width: calc(50%);
+  border: 2px solid #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.comic-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.bubble {
+  position: absolute;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 6%;
+  font-size: 0.6em;
+  white-space: pre-line;
+  max-width: 45%;
+  font-family: "Comic Neue", cursive;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+
+.bubble.bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+.bubble.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+.bubble.top-left {
+  top: 10px;
+  left: 10px;
+}
+.bubble.top-right {
+  top: 10px;
+  right: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bubble.circular-random {
+  border-radius: 50%;
+}
